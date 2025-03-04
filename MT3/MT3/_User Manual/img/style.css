@@ -1,0 +1,99 @@
+.text {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.date {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #227cba; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.date2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #014676; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.link {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #227cba; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.nonlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #227cba; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.blue {
+	FONT-SIZE: 9pt; COLOR: #227cba; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.copyright {
+	FONT-SIZE: 7pt; COLOR: #d3e8fa; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.product {
+	FONT-SIZE: 8pt; COLOR: #6666cc; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+INPUT {
+	FONT-SIZE: 9pt; COLOR: #330033; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #330033; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.itemBorder {
+	BORDER-RIGHT: #cfcfcf 1px outset; BORDER-TOP: #cfcfcf 1px outset; BORDER-LEFT: #cfcfcf 1px outset; BORDER-BOTTOM: #cfcfcf 1px outset
+}
+.itemBorder2 {
+	BORDER-RIGHT: #cfcfcf 1px outset; BORDER-TOP: #cfcfcf 1px outset; FONT-SIZE: 10px; BORDER-LEFT: #cfcfcf 1px outset; BORDER-BOTTOM: #cfcfcf 1px outset; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.itemText {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.crazyBorder {
+	BORDER-RIGHT: #663399 2px outset; BORDER-TOP: #663399 2px outset; BORDER-LEFT: #663399 2px outset; BORDER-BOTTOM: #663399 2px outset
+}
+.crazyText {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffcc99; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.submenu {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.botmenu {
+	FONT-SIZE: 12px; COLOR: #003399; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bottom {
+	MARGIN-TOP: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; LINE-HEIGHT: 120%; FONT-FAMILY: Arial
+}
+TITLE {
+	TEXT-TRANSFORM: lowercase; FONT-VARIANT: normal
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.dyn {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial; TEXT-ALIGN: justify
+}
+.news {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; TEXT-ALIGN: justify
+}
+.rightcol {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial
+}
+INPUT {
+	BORDER-RIGHT: #b3b3b3 1px solid; BORDER-TOP: #b3b3b3 1px solid; BORDER-LEFT: #b3b3b3 1px solid; COLOR: #396185; BORDER-BOTTOM: #b3b3b3 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA {
+	BORDER-RIGHT: #b3b3b3 1px solid; BORDER-TOP: #b3b3b3 1px solid; BORDER-LEFT: #b3b3b3 1px solid; COLOR: #396185; BORDER-BOTTOM: #b3b3b3 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff
+}
+.submit {
+	MARGIN-TOP: 3px
+}
+SELECT {
+	MARGIN-TOP: 3px; FONT-SIZE: 11px; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; FONT-FAMILY: Arial; BORDER-RIGHT-COLOR: #000000
+}
+.menu {
+	FONT-SIZE: 13px; COLOR: #003300; FONT-FAMILY: Arial
+}
+.submenu {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #003300; LINE-HEIGHT: 7pt; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.nmenu {
+	BORDER-RIGHT: #b3b3b3 1px solid; BORDER-TOP: #b3b3b3 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #b3b3b3 1px solid; CURSOR: hand; COLOR: #666666; BORDER-BOTTOM: #b3b3b3 1px solid; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.smenu {
+	FONT-SIZE: 10px; CURSOR: hand; COLOR: #666666; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none; FONT-ALIGN: left
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0044)ug_view_terminal.html -->
+<HTML><HEAD><TITLE>Компания "Форекс": руководство пользователя торгового терминала MetaTrader:ForexUA</TITLE>
+<META content="Forex Ltd" name=author>
+<META http-equiv=Content-Type content="text/html; charset=Windows-1251">
+<META 
+content="Компания Форекс - работа на мировом валютном рынке. Финансовая ответственность компании перед клиентами застрахована. Легальная схема работы, современное програмное обеспечение, анализ рынка  и информационная поддержка, круглосуточный доступ" 
+name=description>
+<META 
+content="Форекс, Харьков, Украина, Дилинг,Трейд, Трейдинг, Валюта, Деньги, Спред, Финансы, Законность, Тренд, Биржа, Вложение средств, Инвестиции, Букмекер, Аналитика, Валютная спекуляция, Дилинговый центр, Анализ рынка, Курс, Котировка, Торговля, Работа, Дистанционное обучение, FOREX, Dealing,Trading,Foreign Exchange,Quotation, MetaTrader, FX, Kharkov, Ukraine, Money, Spread, Finances,Analytics, Trade,Market" 
+name=keywords><LINK href="img/style.css" type=text/css 
+rel=stylesheet>
+
+</HEAD>
+<BODY  leftMargin=0 
+background=img/back.gif topMargin=0 
+ marginwidth="0" marginheight="0">
+<STYLE>A:link {
+	COLOR: #585757; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #585757; TEXT-DECORATION: none
+}
+</STYLE>
+
+<STYLE fprolloverstyle>A:hover {
+	COLOR: #0064a9; TEXT-DECORATION: none
+}
+</STYLE>
+
+
+      <CENTER><IMG alt="Руководство пользователя" 
+      src="img/usermanual.gif"><BR><BR><SPAN 
+      class=date2>Терминал</SPAN></CENTER>&nbsp;<BR>Терминал" (<SPAN 
+      class=date2>Terminal</SPAN>) - это система служебных окон клиентского 
+      терминала MetaTrader, наряду с окнами "<A 
+      href="marketwatch.html"><SPAN class=link>Обзор 
+      рынка</SPAN></A>" (<SPAN class=date2>Market Watch</SPAN>) и "<A 
+      href="navigator.html"><SPAN 
+      class=link>Навигатор</SPAN></A>" (<SPAN class=date2>Navigator</SPAN>), 
+      предназначенная для работы с инструментами, представленными в окне "Обзор 
+      рынка" (выполнения, отслеживания и управления торговыми операциями). 
+      Терминал может быть выключен/включен из главного меню "Вид - &gt; 
+      Терминал" (<SPAN class=date2>View</SPAN> - &gt; <SPAN 
+      class=date2>Terminal</SPAN>), нажатием комбинации клавиш "<SPAN 
+      class=date2>Ctrl - T</SPAN>", либо нажатием на стандартной панели 
+      инструментов кнопки <IMG 
+      src="img/mt13.gif">.<BR>"Терминал" состоит из 
+      нескольких окон: <BR><BR>
+      <CENTER><SPAN class=date2>Торговля</SPAN> (<SPAN 
+      class=date2>Trade</SPAN>)</CENTER><BR>
+      <CENTER><IMG alt="Terminal: Trade" 
+      src="img/mt_vw_term_trade.gif" width=520 
+      border=0></CENTER><BR>В окне "Торговля" содержится строка с информацией о 
+      текущем состоянии счета, а также строки с информацией об открытых позициях 
+      и о выставленных отложенных ордерах. В контекстном меню доступны следующие 
+      команды:<BR>
+      <TABLE cellPadding=6 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top>
+            <CENTER><IMG height=373 alt="Контекстное меню вкладки Trade" 
+            src="img/mt_vw_term_trade_cont.gif" width=281 
+            border=0></CENTER></TD>
+          <TD class=text>
+            <DIV class=defaulttext>
+            <LI>"Новый ордер" (<SPAN class=date2>New order</SPAN>) - вызвать 
+            диалоговое <A href="ug_order_form.html"><SPAN 
+            class=link>окно для установки ордеров;</SPAN></A> 
+            <LI>"Изменить или удалить ордер" (<SPAN class=date2>Modify or Delete 
+            Order</SPAN>) - <A 
+            href="ug_order_modify.html"><SPAN 
+            class=link>изменить</SPAN></A> уровни Stop Loss и/или Take Profit, 
+            изменить уровень "отложенного ордера" (Pending Order) или <A 
+            href="ug_order_delete.html"><SPAN 
+            class=link>удалить</SPAN></A> отложенный ордер; 
+            <LI>"Трейлинг стоп" (<SPAN class=date2>Trailing Stop</SPAN>) - 
+            изменить уровень ордера трейлинг стоп. Выбирая во всплывающем меню 
+            величину трейлинг стопа от 10 до 300 пипсов, пользователь включает 
+            функцию Trailing Stop с соответствующим параметром; команда "Нет" 
+            (<SPAN class=date2>None</SPAN>) служит для отключения функции 
+            Trailing Stop для выделенной открытой позиции или отложенного 
+            ордера; команда "Удалить все" (<SPAN class=date2>Delete All</SPAN>) 
+            - для выключения функции Trailing Stop для всех открытых позиции или 
+            отложенных ордеров; 
+            <LI>"Авто размер столбцов" (<SPAN class=date2>Auto Arrange</SPAN>) - 
+            автоматическая установка размера столбцов при изменении размера окна 
+            терминала; 
+            <LI>"Прибыль в пунктах" (<SPAN class=date2>Profit as Points</SPAN>) 
+            - показывать прибыль/убыток в пипсах или в долларах США; 
+            <LI>"Отслеживать ордера на графиках" (<SPAN class=date2>Show on the 
+            Charts</SPAN>) - показывать/не показывать на графике уровни открытых 
+            позиций, выставленных ордеров (отложенных, Stop Loss, Take Profit); 
+            <LI>"Показывать комментарии" (<SPAN class=date2>Comments</SPAN>) - 
+            показывать/не показывать в окне "Торговля" колонку "Комментарии"; 
+            <LI>"Показывать сетку" (<SPAN class=date2>Grid</SPAN>) - 
+            показывать/не показывать в окне "Торговля" (Trade) сетку для 
+            разделения колонок. </LI></DIV></TD></TR></TBODY></TABLE>После одинарного 
+      щелчка левой кнопки мыши строка открытой позиции или отложенного ордера 
+      окрасится в синий цвет. Двойной щелчок выведет на экран окно для закрытия 
+      позиции или удаления отложенного ордера.<BR><BR>
+      <CENTER><SPAN class=date2>Новости</SPAN> (<SPAN 
+      class=date2>News</SPAN>)</CENTER><BR>
+      <CENTER><IMG alt="Terminal: News" 
+      src="img/mt_vw_term_news.gif" width=520 
+      border=0></CENTER><BR>В окне "Новости" (<SPAN class=date2>News</SPAN>) 
+      содержится список заголовков пришедших за сеанс новостей.<BR>В контекстном 
+      меню доступны следующие команды: 
+      <TABLE cellPadding=6 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top>
+            <CENTER><IMG height=74 alt="Контекстное меню вкладки News" 
+            src="img/mt_vw_term_news_cont.gif" width=122 
+            border=0></CENTER></TD>
+          <TD class=text vAlign=top>
+            <DIV class=defaulttext>
+            <LI>"Показать новость" (<SPAN class=date2>View</SPAN>) - вывести на 
+            экран окно с выделенной новостью; 
+            <LI>"Авто размер столбцов" (<SPAN class=date2>Auto Arrange</SPAN>) - 
+            автоматическая установка размера столбцов при изменении размера окна 
+            торгового терминала; 
+            <LI>"Показывать сетку" (<SPAN class=date2>Grid</SPAN>) - 
+            показывать/не показывать сетку для разделения колонок. 
+        </LI></DIV></TD></TR></TBODY></TABLE>Новости, относящиеся к выбранному 
+      заголовку, можно прочитать, дважды щелкнув на заголовке левой кнопкой 
+      мыши.<BR><BR>
+      <CENTER><SPAN class=date2>История счета</SPAN> (<SPAN class=date2>Account 
+      history</SPAN>)</CENTER><BR>
+      <CENTER><IMG alt="Terminal: Account history" 
+      src="img/mt_vw_term_achist.gif" width=520 
+      border=0></CENTER><BR>В окне "История счета" (<SPAN class=date2>Account 
+      history</SPAN>) содержатся начальная строка с датой открытия счета, строка 
+      состояния счета и строки с информацией о проведенных торговых операциях по 
+      текущему счету (открытии и закрытии позиции). При помощи контекстного меню 
+      список операций можно фильтровать.<BR>В контекстном меню доступны 
+      следующие команды: 
+      <TABLE cellPadding=6 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top>
+            <CENTER><IMG height=202 
+            alt="Контекстное меню вкладки Account history" 
+            src="img/mt_vw_term_achist_cont.gif" width=129 
+            border=0></CENTER></TD>
+          <TD class=text vAlign=top>
+            <DIV class=defaulttext>
+            <LI>"Вся история" (<SPAN class=date2>All History</SPAN>) - показать 
+            всю историю текущего счета; 
+            <LI>"Последние 3 месяца" (<SPAN class=date2>Last 3 Month</SPAN>) - 
+            показать историю текущего счета за последние 3 месяца; 
+            <LI>"Последний месяц" (<SPAN class=date2>Last Month</SPAN>) - 
+            показать историю текущего счета за последний месяц; 
+            <LI>"Последняя неделя" (<SPAN class=date2>Last Week</SPAN>) - 
+            показать историю текущего счета за последнюю неделю; 
+            <LI>"Сегодня" (<SPAN class=date2>Today</SPAN>) - показать историю 
+            текущего счета за сегодняшний день; 
+            <LI>"Сохранить как отчет" (<SPAN class=date2>Save as Report</SPAN>) 
+            - сохранить текущую историю счета на жесткий диск в виде отчета в 
+            формате HTML; 
+            <LI>"Авто размер столбцов" (<SPAN class=date2>Auto Arrange</SPAN>) - 
+            проводить автоматическую установку размера столбцов при изменении 
+            размера окна "История счета"; 
+            <LI>"Показывать комментарии" (<SPAN class=date2>Comments</SPAN>) - 
+            показывать или не показывать колонку "Комментарии" в окне "История 
+            счета"; 
+            <LI>"Показывать сетку" (<SPAN class=date2>Grid</SPAN>) - показывать 
+            или не показывать сетку для разделения колонок в окне "История 
+            счета". </LI></DIV></TD></TR></TBODY></TABLE><BR>
+      <CENTER><SPAN class=date2>Сигналы</SPAN> (<SPAN 
+      class=date2>Alerts</SPAN>)</CENTER><BR>
+      <CENTER><IMG alt="Terminal: Alerts" 
+      src="img/mt_vw_term_alert.gif" width=520 
+      border=0></CENTER><BR>В окне "Сигналы" (<SPAN class=date2>Alerts</SPAN>) 
+      содержатся строки с информацией о созданных сигналах о событиях. Создав 
+      сигнал о событии, пользователь может отойти от монитора. Клиентский 
+      терминал MetaTrader звуковым сигналом или исполнением exe-файла оповестит 
+      пользователя о свершении некоего события. <BR>Контекстное меню содержит 
+      следующие команды: 
+      <TABLE cellPadding=6 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top>
+            <CENTER><IMG height=134 alt="Контекстное меню вкладки Alerts" 
+            src="img/mt_vw_term_alert_cont.gif" width=147 
+            border=0></CENTER></TD>
+          <TD class=text vAlign=top>
+            <DIV class=defaulttext>
+            <LI>"Создать" (<SPAN class=date2>Create a new Alert</SPAN>) - 
+            создать новый сигнал о событии; 
+            <LI>"Изменить" (<SPAN class=date2>Modify</SPAN>) - редактировать 
+            сигнал о событии; 
+            <LI>"Удалить" (<SPAN class=date2>Delete</SPAN>) - удалить сигнал о 
+            событии; 
+            <LI>"Отключить/Включить" (<SPAN class=date2>Freeze/Unfreeze</SPAN>) 
+            - отключить или включить сигнал о событии; 
+            <LI>"Авто размер столбцов" (<SPAN class=date2>Auto Arrange</SPAN>) - 
+            проводить автоматическую установку размера столбцов при изменении 
+            размера окна "Сигналы"; 
+            <LI>"Показывать сетку" (<SPAN class=date2>Grid</SPAN>) - показывать 
+            или не показывать сетку для разделения колонок окна "Сигналы". 
+            </LI></DIV></TD></TR></TBODY></TABLE><BR>Двойным щелчком левой кнопки мыши 
+      по строке с информацией о созданном сигнале о событии можно приступить к 
+      редактированию сигнала о событии. В данном случае, а также при выполнении 
+      команд "Изменить" (<SPAN class=date2>Modify</SPAN>) или "Создать" (<SPAN 
+      class=date2>Create a new Alert</SPAN>) контекстного меню появляется окно 
+      редактора сигналов о событиях. <BR><BR>
+      <CENTER><IMG height=149 alt='Окно "Редактор сигналов" (Alert Editor)' 
+      src="img/mt_vw_term_alert_edit.gif" width=509 
+      border=0></CENTER><BR>Значения элементов окна редактора сигналов о 
+      событиях: 
+      <LI>"Символ" (<SPAN class=date2>Symbol</SPAN>) - строка выбора 
+      инструмента; 
+      <LI>"Условие" (<SPAN class=date2>Condition</SPAN>) - строка выбора 
+      события, представленного в виде условия (time=, bid&lt;, bid&gt;, ask&lt;, 
+      ask&lt;); 
+      <LI>"Значение" (<SPAN class=date2>Value</SPAN>) - строка установки 
+      значения условия; 
+      <LI>"Событие" (<SPAN class=date2>Event</SPAN>) - строка выбора файла, 
+      выполнение которого выдает сигнал о наступлении события; 
+      <LI>"Включить" (<SPAN class=date2>Enable</SPAN>) - строка активизации или 
+      де активизации сигнала о событии; 
+      <LI>"Время" (<SPAN class=date2>Timeout</SPAN>) - строка выбора периода 
+      времени, через который выдается сигнал о событии; 
+      <LI>"Лимит" (<SPAN class=date2>Limit</SPAN>) - максимальное количество 
+      сигналов о событии; 
+      <LI>Кнопка <SPAN class=date2>OK</SPAN> - кнопка создания или добавления 
+      изменения сигнала о событии; 
+      <LI>Кнопка "Отменить" (<SPAN class=date2>Cancel</SPAN>) - кнопка отмены 
+      редактирования сигнала о событии.<BR>Сигнал о событии появляется в 
+      результате выполнения Windows файла любого типа (wav, exe и т.д.), 
+      прикрепленного к событию в результате редактирования. <BR><BR>
+      <CENTER><SPAN class=date2>Почта</SPAN> (<SPAN 
+      class=date2>Mailbox</SPAN>)</CENTER><BR>
+      <CENTER><IMG alt="Terminal: Mailbox" 
+      src="img/mt_vw_term_mail.gif" width=520 
+      border=0></CENTER><BR>В окне "Почта" (<SPAN class=date2>Mailbox</SPAN>) 
+      содержится список заголовков всех электронных писем, пришедших от 
+      MetaTrader сервера. При помощи контекстного меню командой "Показать 
+      содержимое" (<SPAN class=date2>View</SPAN>) можно показать содержимое 
+      выбранного заголовка письма или командой "Удалить" (<SPAN 
+      class=date2>Delete</SPAN>) - удалить выбранный заголовок.<BR><BR>
+      <CENTER><IMG alt="Содержимое письма" 
+      src="img/mt_vw_term_mail_cont2.gif" width=520 
+      border=0></CENTER><BR>Содержимое письма можно посмотреть также при помощи 
+      двойного щелчка левой кнопки мыши на выбранном заголовке.<BR><BR>
+      <CENTER><SPAN class=date2>Журнал</SPAN> (<SPAN 
+      class=date2>Journal</SPAN>)</CENTER><BR>
+      <CENTER><IMG alt="Terminal: Jornal" 
+      src="img/mt_vw_term_jorn.gif" width=520 
+      border=0></CENTER><BR>В окне "Журнал" (<SPAN class=date2>Journal</SPAN>) 
+      содержится список зафиксированных действий пользователя и клиентского 
+      терминала за текущий сеанс. Фиксируются все торговые операции, запуск 
+      советников, информация о работе советников, информация о работе 
+      клиентского терминала.<BR><BR>
+      <CENTER><A href="navigator.html"><SPAN 
+      class=link>Назад</SPAN></A>&nbsp;&nbsp;<A 
+      href="index.html"><SPAN 
+      class=link>Содержание</SPAN></A>&nbsp;&nbsp;<A 
+      href="ug_view_charts.html"><SPAN 
+      class=link>Далее</SPAN></A></CENTER><BR><BR><BR></LI> </CENTER></BODY></HTML>

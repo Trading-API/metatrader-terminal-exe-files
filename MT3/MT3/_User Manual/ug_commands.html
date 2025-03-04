@@ -1,0 +1,983 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0039)ug_commands.html -->
+<HTML><HEAD><TITLE>Компания "Форекс": руководство пользователя торгового терминала MetaTrader:ForexUA</TITLE>
+<META content="Forex Ltd" name=author>
+<META http-equiv=Content-Type content="text/html; charset=Windows-1251">
+<META 
+content="Компания Форекс - работа на мировом валютном рынке. Финансовая ответственность компании перед клиентами застрахована. Легальная схема работы, современное програмное обеспечение, анализ рынка  и информационная поддержка, круглосуточный доступ" 
+name=description>
+<META 
+content="Форекс, Харьков, Украина, Дилинг,Трейд, Трейдинг, Валюта, Деньги, Спред, Финансы, Законность, Тренд, Биржа, Вложение средств, Инвестиции, Букмекер, Аналитика, Валютная спекуляция, Дилинговый центр, Анализ рынка, Курс, Котировка, Торговля, Работа, Дистанционное обучение, FOREX, Dealing,Trading,Foreign Exchange,Quotation, MetaTrader, FX, Kharkov, Ukraine, Money, Spread, Finances,Analytics, Trade,Market" 
+name=keywords><LINK href="img/style.css" type=text/css 
+rel=stylesheet>
+<META content="MSHTML 6.00.2600.0" name=GENERATOR>
+
+
+
+</HEAD>
+<BODY leftMargin=0 background=img/back.gif 
+topMargin=0 marginwidth="0" marginheight="0">
+<STYLE>A:link {
+	COLOR: #585757; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #585757; TEXT-DECORATION: none
+}
+</STYLE>
+
+<STYLE fprolloverstyle>A:hover {
+	COLOR: #0064a9; TEXT-DECORATION: none
+}
+</STYLE>
+
+
+
+      <CENTER><IMG alt="Руководство пользователя" 
+      src="img/usermanual.gif"><BR><BR><SPAN class=date2>Команды 
+      клиентского терминала</SPAN></CENTER>&nbsp;<BR>
+      <TABLE borderColor=#40769d cellSpacing=0 border=1>
+        <TBODY>
+        <TR bgColor=#d7eafa>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Команда</TD>
+          <TD class=text>Главное меню</TD>
+          <TD class=text>Контекстное меню</TD>
+          <TD class=text>Панель инструментов</TD>
+          <TD class=text>Горячие клавиши</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt26.gif"></TD>
+          <TD class=text>Новый <A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>график</SPAN></A> (<SPAN class=date2>New Chart</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Закрыть график (<SPAN class=date2>Close</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt203.gif"></TD>
+          <TD class=text>Сохранить как (<SPAN class=date2>Save As</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>Ctrl + S</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Сохранить как рисунок (<SPAN class=date2>Save As 
+            Picture</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt204.gif"></TD>
+          <TD class=text><A href="userguide.html"><SPAN 
+            class=link>Открыть счет</SPAN></A> (<SPAN class=date2>Open an 
+            Account</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Навигатор</SPAN></A>-Счета (<SPAN 
+            class=date2>Navigator-Accounts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt205.gif"></TD>
+          <TD class=text>Печать (<SPAN class=date2>Print</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>Ctrl + P</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt206.gif"></TD>
+          <TD class=text>Предварительный просмотр (<SPAN class=date2>Print 
+            Preview</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Настройки печати (<SPAN class=date2>Print 
+            Setup</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Выход (<SPAN class=date2>Exit</SPAN>)</TD>
+          <TD class=text>Файл (<SPAN class=date2>File</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt207.gif"></TD>
+          <TD class=text>Панели инструментов (<SPAN 
+            class=date2>Toolbars</SPAN>)</TD>
+          <TD class=text>Вид(<SPAN class=date2>View</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Стандартная (<SPAN class=date2>Standart</SPAN>)</TD>
+          <TD class=text>Вид-Панели инструментов (<SPAN 
+            class=date2>View-Toolbars</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>Графики</SAN></A> (<SPAN 
+          class=date2>Charts</SPAN>)</SPAN></TD>
+          <TD class=text>Вид-Панели инструментов (<SPAN 
+            class=date2>View-Toolbars</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text><A 
+            href="ug_lines_bar.html"><SPAN 
+            class=link>Графические инструменты</SPAN></A> (<SPAN 
+            class=date2>Line Studies</SPAN>)</TD>
+          <TD class=text>Вид-Панели инструментов (<SPAN 
+            class=date2>View-Toolbars</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Период <A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>графика</SPAN></A> (<SPAN 
+          class=date2>Periodicity</SPAN>)</TD>
+          <TD class=text>Вид-Панели инструментов (<SPAN 
+            class=date2>View-Toolbars</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Статусная строка (<SPAN class=date2>Status 
+          Bar</SPAN>)</TD>
+          <TD class=text>Вид(<SPAN class=date2>View</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt6.gif"></TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A> (<SPAN class=date2>Market 
+            Watch</SPAN>)</TD>
+          <TD class=text>Вид(<SPAN class=date2>View</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>Ctrl + M</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt7.gif"></TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Навигатор</SPAN></A> (<SPAN 
+          class=date2>Navigator</SPAN>)</TD>
+          <TD class=text>Вид(<SPAN class=date2>View</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>Ctrl + N</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt13.gif"></TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Торговый терминал</SPAN></A> (<SPAN 
+            class=date2>Terminal</SPAN>)</TD>
+          <TD class=text>Вид(<SPAN class=date2>View</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>Ctrl + T</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt207.gif"></TD>
+          <TD class=text><SPAN class=date2>Languages</SPAN></TD>
+          <TD class=text>Вид(<SPAN class=date2>View</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt209.gif"></TD>
+          <TD class=text><A 
+            href="ug_indicators.html"><SPAN 
+            class=link>Индикаторы</SPAN></A> (<SPAN 
+            class=date2>Indicators</SPAN>)</TD>
+          <TD class=text>Вставка (<SPAN class=date2>Insert</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html">на графике</A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Ctrl + I</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt33.gif"></TD>
+          <TD class=text><A 
+            href="ug_lines_bar.html"><SPAN 
+            class=link>Вертикальная линия</SPAN></A> (<SPAN class=date2>Vertical 
+            Line</SPAN>)</TD>
+          <TD class=text>Вставка (<SPAN class=date2>Insert</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Line Studies</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt34.gif"></TD>
+          <TD class=text><A 
+            href="ug_lines_bar.html"><SPAN 
+            class=link>Горизонтальная линия</SPAN></A> (<SPAN 
+            class=date2>Horizontal Line</SPAN>)</TD>
+          <TD class=text>Вставка (<SPAN class=date2>Insert</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Line Studies</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt35.gif"></TD>
+          <TD class=text><A 
+            href="ug_lines_bar.html"><SPAN 
+            class=link>Линия тренда</SPAN></A>.(<SPAN 
+            class=date2>Trendline</SPAN>)</TD>
+          <TD class=text>Вставка (<SPAN class=date2>Insert</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Line Studies</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt36.gif"></TD>
+          <TD class=text><A 
+            href="ug_lines_bar.html"><SPAN 
+            class=link>Линии Фибоначчи</SPAN></A> (<SPAN class=date2>Fibonacci 
+            Retracement</SPAN>)</TD>
+          <TD class=text>Вставка (<SPAN class=date2>Insert</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Line Studies</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt37.gif"></TD>
+          <TD class=text><A 
+            href="ug_lines_bar.html"><SPAN 
+            class=link>Символы</SPAN></A> (<SPAN class=date2>Symbols</SPAN>)</TD>
+          <TD class=text>Вставка (<SPAN class=date2>Insert</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Line Studies</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt38.gif"></TD>
+          <TD class=text><A 
+            href="ug_lines_bar.html"><SPAN 
+            class=link>Текст</SPAN></A> (<SPAN class=date2>Text</SPAN>)</TD>
+          <TD class=text>Вставка (<SPAN class=date2>Insert</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Line Studies</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt42.gif"></TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>График Bar</SPAN></A> (<SPAN class=date2>Bar 
+          Chart</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>Alt + 1</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt43.gif"></TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>Японские свечи</SPAN></A> (<SPAN 
+            class=date2>Candlesticks</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>Alt + 2</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt44.gif"></TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>Линия</SPAN></A> (<SPAN class=date2>Line Chart</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>Alt + 3</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt207.gif"></TD>
+          <TD class=text>Советники (<SPAN class=date2>Expert 
+          Advisors</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt210.gif"></TD>
+          <TD class=text>Свойства (<SPAN class=date2>Properties</SPAN>)</TD>
+          <TD class=text>Графики-Советники (<SPAN class=date2>Charts-Expert 
+            Advisors</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>F7</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt211.gif"></TD>
+          <TD class=text>Удалить (<SPAN class=date2>Remove</SPAN>)</TD>
+          <TD class=text>Графики-Советники (<SPAN class=date2>Charts-Expert 
+            Advisors</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt212.gif"></TD>
+          <TD class=text>Тестирование стратегии (<SPAN class=date2>Strategy 
+            Tester</SPAN>)</TD>
+          <TD class=text>Графики-Советники (<SPAN class=date2>Charts-Expert 
+            Advisors</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>F6</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt207.gif"></TD>
+          <TD class=text>Период графика (<SPAN 
+          class=date2>Periodicity</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt207.gif"></TD>
+          <TD class=text>Шаблон (<SPAN class=date2>Template</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt89.gif"></TD>
+          <TD class=text>Открыть шаблон (<SPAN class=date2>Open 
+            Template</SPAN>)</TD>
+          <TD class=text>Графики-Шаблон (<SPAN 
+            class=date2>Charts-Template</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt90.gif"></TD>
+          <TD class=text>Сохранить шаблон (<SPAN class=date2>Save 
+            Template</SPAN>)</TD>
+          <TD class=text>Графики-Шаблон (<SPAN 
+            class=date2>Charts-Template</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt207.gif"></TD>
+          <TD class=text>Обновить (<SPAN class=date2>Refresh</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Обновить график (<SPAN class=date2>Refresh 
+            Chart</SPAN>)</TD>
+          <TD class=text>Графики-Обновить (<SPAN 
+            class=date2>Charts-Refresh</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Очистить и обновить график (<SPAN class=date2>Erase 
+            &amp; Refresh Chart</SPAN>)</TD>
+          <TD class=text>Графики-Обновить (<SPAN 
+            class=date2>Charts-Refresh</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Очистить и обновить все графики (<SPAN 
+            class=date2>Erase &amp; Refresh All Charts</SPAN>)</TD>
+          <TD class=text>Графики-Обновить (<SPAN 
+            class=date2>Charts-Refresh</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Сетка (<SPAN class=date2>Grid</SPAN>)</TD>
+          <TD class=text>Графики(<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Ctrl + G</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Объемы (<SPAN class=date2>Volumes</SPAN>)</TD>
+          <TD class=text>Графики(<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Ctrl + L</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt54.gif"></TD>
+          <TD class=text>Автопрокрутка (<SPAN class=date2>Auto 
+          Scroll</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt45.gif"></TD>
+          <TD class=text>Сдвиг графика (<SPAN class=date2>Chart 
+          Shift</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt46.gif"></TD>
+          <TD class=text>Использовать советников (<SPAN class=date2>Enable 
+            Expert Advisors</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Показывать разделители дней (<SPAN class=date2>Show 
+            Days</SPAN>)</TD>
+          <TD class=text>Графики(<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Ctrl + D</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt87.gif"></TD>
+          <TD class=text>Увеличение (<SPAN class=date2>Zoom In</SPAN>)</TD>
+          <TD class=text>Графики(<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>+(плюс)</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt88.gif"></TD>
+          <TD class=text>Уменьшение (<SPAN class=date2>Zoom Out</SPAN>)</TD>
+          <TD class=text>Графики(<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>Charts</TD>
+          <TD class=text>-(минус)</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt213.gif"></TD>
+          <TD class=text>Шаг за шагом (<SPAN class=date2>Step by 
+          Step</SPAN>)</TD>
+          <TD class=text>Графики(<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>F12</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Удалить последний объект (<SPAN class=date2>Delete 
+            Last Object</SPAN>)</TD>
+          <TD class=text>Графики(<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Backspace</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt214.gif"></TD>
+          <TD class=text><A 
+            href="ug_lines_bar.html"><SPAN 
+            class=link>Удалить все символы</SPAN></A> (<SPAN class=date2>Delete 
+            All Symbols</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN 
+            class=date2>Charts</SPAN>)<BR>Вставить-Символы (<SPAN 
+            class=date2>Insert-Symbols</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt73.gif"></TD>
+          <TD class=text>Свойства (<SPAN class=date2>Properties</SPAN>)</TD>
+          <TD class=text>Графики (<SPAN class=date2>Charts</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>F8</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt215.gif"></TD>
+          <TD class=text><A 
+            href="ug_order_form.html"><SPAN 
+            class=link>Новый ордер</SPAN></A> (<SPAN class=date2>New 
+            Order</SPAN>)</TD>
+          <TD class=text>Сервис (<SPAN class=date2>Tools</SPAN>)</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A><BR><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Торговля</SPAN></A> (<SPAN 
+            class=date2>Terminal-Trade</SPAN>)</TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>F9</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt216.gif"></TD>
+          <TD class=text><A 
+            href="ug_history_bases.html"><SPAN 
+            class=link>Архив котировок</SPAN></A> (<SPAN class=date2>History 
+            Center</SPAN>)</TD>
+          <TD class=text>Сервис (<SPAN class=date2>Tools</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>F2</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt217.gif"></TD>
+          <TD class=text>Редактор MetaQuotes Language (<SPAN 
+            class=date2>MetaQuotes Language Editorr</SPAN>)</TD>
+          <TD class=text>Сервис (<SPAN class=date2>Tools</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>F4</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt73.gif"></TD>
+          <TD class=text><A 
+            href="ug_options_server.html"><SPAN 
+            class=link>Настройки</SPAN></A> (<SPAN 
+class=date2>Options</SPAN>)</TD>
+          <TD class=text>Сервис (<SPAN class=date2>Tools</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Standart</TD>
+          <TD class=text>Ctrl + O</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt218.gif"></TD>
+          <TD class=text>Окно графика (<SPAN class=date2>Chart 
+          Window</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Скрыть символ из списка (<SPAN class=date2>Hide 
+            Symbol</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Del</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Скрыть все символы (<SPAN class=date2>Hide All 
+            Symbols</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Показать все символы (<SPAN class=date2>Show All 
+            Symbols</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Авторазмер столбцов (<SPAN class=date2>Auto 
+            Arrange</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A><BR>на всех вкладках <A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминала</SPAN></A> (<SPAN 
+          class=date2>Terminal</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Показывать High/Low (<SPAN 
+            class=date2>High/Low</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Показывать время (<SPAN class=date2>Time</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Показывать сетку (<SPAN class=date2>Grid</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Обзор рынка</SPAN></A><BR>на всех вкладках <A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминала</SPAN></A> (<SPAN 
+          class=date2>Terminal</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt219.gif"></TD>
+          <TD class=text><A href="ug_login.html"><SPAN 
+            class=link>Авторизация</SPAN></A> (<SPAN 
+class=date2>Login</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Навигатор</SPAN></A>-Счета (<SPAN 
+            class=date2>Navigator-Accounts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt220.gif"></TD>
+          <TD class=text>Удалить (<SPAN class=date2>Delete</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Навигатор</SPAN></A>-Счета (<SPAN 
+            class=date2>Navigator-Accounts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt221.gif"></TD>
+          <TD class=text>Присоединить (<SPAN class=date2>Attach to a 
+            chart</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Навигатор</SPAN></A>-Советники (<SPAN 
+            class=date2>Navigator-Expert Advisors</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt210.gif"></TD>
+          <TD class=text>Изменить (<SPAN class=date2>Modify</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Навигатор</SPAN></A>-Советники (<SPAN 
+            class=date2>Navigator-Expert Advisors</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt211.gif"></TD>
+          <TD class=text>Удалить (<SPAN class=date2>Delete</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Навигатор</SPAN></A>-Советники (<SPAN 
+            class=date2>Navigator-Expert Advisors</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt224.gif"></TD>
+          <TD class=text>Создать (<SPAN class=date2>Create a new 
+          expert</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_market.html"><SPAN 
+            class=link>Навигатор</SPAN></A>-Советники (<SPAN 
+            class=date2>Navigator-Expert Advisors</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt225.gif"></TD>
+          <TD class=text>Изменить или удалить ордер (<SPAN class=date2>Modify 
+            or Delete Order</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Торговля</SPAN></A> (<SPAN 
+            class=date2>Terminal-Trade</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt207.gif"></TD>
+          <TD class=text>Трейлинг стоп (<SPAN class=date2>Trailing 
+          Stop</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Торговля</SPAN></A> (<SPAN 
+            class=date2>Terminal-Trade</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Прибыль в пунктах (<SPAN class=date2>Profit as 
+            Points</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Торговля</SPAN></A> (<SPAN 
+            class=date2>Terminal-Trade</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Отслеживать ордера на графиках (<SPAN 
+            class=date2>Show on the Charts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Торговля</SPAN></A> (<SPAN 
+            class=date2>Terminal-Trade</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Показывать комментарии (<SPAN 
+            class=date2>Comments</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Торговля</SPAN></A> (<SPAN 
+            class=date2>Terminal-Trade</SPAN>)<BR><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-История счета</SPAN></A> (<SPAN 
+            class=date2>Terminal-Account History</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Показать новость (<SPAN class=date2>View</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Новости</SPAN></A> (<SPAN 
+            class=date2>Terminal-News</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Вся история (<SPAN class=date2>All History</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-История счета</SPAN></A> (<SPAN 
+            class=date2>Terminal-Account History</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Последние 3 месяца (<SPAN class=date2>Last 3 
+            Month</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-История счета</SPAN></A> (<SPAN 
+            class=date2>Terminal-Account History</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Последний месяц (<SPAN class=date2>Last 
+          Month</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-История счета</SPAN></A> (<SPAN 
+            class=date2>Terminal-Account History</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Последняя неделя (<SPAN class=date2>Last 
+          Week</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-История счета</SPAN></A> (<SPAN 
+            class=date2>Terminal-Account History</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Сегодня (<SPAN class=date2>Today</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-История счета</SPAN></A> (<SPAN 
+            class=date2>Terminal-Account History</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt203.gif"></TD>
+          <TD class=text>Сохранить как отчет (<SPAN class=date2>Save as 
+            report</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-История счета</SPAN></A> (<SPAN 
+            class=date2>Terminal-Account History</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt226.gif"></TD>
+          <TD class=text>Создать (<SPAN class=date2>Create a new 
+          Alert</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Сигналы</SPAN></A> (<SPAN 
+            class=date2>Terminal-Alerts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt227.gif"></TD>
+          <TD class=text>Изменить (<SPAN class=date2>Modify</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Сигналы</SPAN></A> (<SPAN 
+            class=date2>Terminal-Alerts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt228.gif"></TD>
+          <TD class=text>Удалить (<SPAN class=date2>Delete</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Сигналы</SPAN></A> (<SPAN 
+            class=date2>Terminal-Alerts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt229.gif"></TD>
+          <TD class=text>Отключить/Включить (<SPAN 
+            class=date2>Freeze/Unfreeze</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Сигналы</SPAN></A> (<SPAN 
+            class=date2>Terminal-Alerts</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Показать содержимое (<SPAN 
+class=date2>View</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Почта</SPAN></A> (<SPAN 
+            class=date2>Terminal-Mailbox</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Удалить письмо (<SPAN class=date2>Delete</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Почта</SPAN></A> (<SPAN 
+            class=date2>Terminal-Mailbox</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt208.gif"></TD>
+          <TD class=text>Автопрокрутка (<SPAN class=date2>Auto 
+          Scroll</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_terminal.html"><SPAN 
+            class=link>Терминал-Журнал</SPAN></A> (<SPAN 
+            class=date2>Terminal-Journal</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR>
+        <TR>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Упорядочить индикаторы (<SPAN class=date2>Auto 
+            Arrange</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>Ctrl + A</TD></TR>
+        <TR>
+          <TD align=middle><IMG src="img/mt230.gif"></TD>
+          <TD class=text>Удалить индикатор (<SPAN class=date2>Delete 
+            Indicator</SPAN>)</TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text><A 
+            href="ug_view_charts.html"><SPAN 
+            class=link>на графике</SPAN></A></TD>
+          <TD class=text>&nbsp;</TD>
+          <TD class=text>&nbsp;</TD></TR></TBODY></TABLE><BR>В таблице не описаны 
+      команды подменю "Период графика" (<SPAN class=date2>Periodicity</SPAN>) 
+      контекстного меню <A 
+      href="ug_view_charts.html"><SPAN class=link>на 
+      график</SPAN></A> и соответствующая ему панель инструментов <SPAN 
+      class=date2>Periodicity</SPAN>. Также не описаны команды подменю "Трейлинг 
+      стоп" (<SPAN class=date2>Trailing stop</SPAN>) контекстного меню <A 
+      href="ug_view_terminal.html"><SPAN 
+      class=link>Терминал-Торговля</SPAN></A> (<SPAN 
+      class=date2>Terminal-Trade</SPAN>).<BR><BR>Подменю "Окно" (<SPAN 
+      class=date2>Window</SPAN>) и "Справка" (<SPAN class=date2>Help</SPAN>) 
+      главного меню клиентского терминала являются стандартными для большинства 
+      приложений операционной системы Windows. <BR><BR>
+      <CENTER><A href="ug_history_bases.html"><SPAN 
+      class=link>Назад</SPAN></A>&nbsp;&nbsp;<A 
+      href="index.html"><SPAN 
+      class=link>Содержание</SPAN></A></CENTER><BR><BR><BR></TD>
+    <TD vAlign=top width=15 bgColor=#ffffff><IMG 
+      src="img/knowmore_end.gif"></CENTER></BODY></HTML>

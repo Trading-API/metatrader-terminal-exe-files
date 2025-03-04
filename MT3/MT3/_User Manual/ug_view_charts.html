@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0042)ug_view_charts.html -->
+<HTML><HEAD><TITLE>Компания "Форекс": руководство пользователя торгового терминала MetaTrader:ForexUA</TITLE>
+<META content="Forex Ltd" name=author>
+<META http-equiv=Content-Type content="text/html; charset=Windows-1251">
+<META 
+content="Компания Форекс - работа на мировом валютном рынке. Финансовая ответственность компании перед клиентами застрахована. Легальная схема работы, современное програмное обеспечение, анализ рынка  и информационная поддержка, круглосуточный доступ" 
+name=description>
+<META 
+content="Форекс, Харьков, Украина, Дилинг,Трейд, Трейдинг, Валюта, Деньги, Спред, Финансы, Законность, Тренд, Биржа, Вложение средств, Инвестиции, Букмекер, Аналитика, Валютная спекуляция, Дилинговый центр, Анализ рынка, Курс, Котировка, Торговля, Работа, Дистанционное обучение, FOREX, Dealing,Trading,Foreign Exchange,Quotation, MetaTrader, FX, Kharkov, Ukraine, Money, Spread, Finances,Analytics, Trade,Market" 
+name=keywords><LINK href="img/style.css" type=text/css 
+rel=stylesheet>
+
+</HEAD>
+<BODY  leftMargin=0 background=img/back.gif 
+topMargin=0  marginwidth="0" marginheight="0">
+<STYLE>A:link {
+	COLOR: #585757; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #585757; TEXT-DECORATION: none
+}
+</STYLE>
+
+<STYLE fprolloverstyle>A:hover {
+	COLOR: #0064a9; TEXT-DECORATION: none
+}
+</STYLE>
+
+
+      <CENTER><IMG alt="Руководство пользователя" 
+      src="img/usermanual.gif"><BR><BR><SPAN 
+      class=date2>Настройка графика</SPAN></CENTER>&nbsp;<BR>Настройка графика 
+      может производиться командами контекстного меню графика, "горячими 
+      клавишами" и командами панели <SPAN class=date2>Charts</SPAN>. Назначение 
+      пунктов контекстного меню графика (вызывается нажатием правой кнопки мыши 
+      на окне графика): 
+      <TABLE cellPadding=6 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=text align=left>
+            <DIV class=defaulttext>
+            <UL>
+              <LI><SPAN class=date2>Indicators</SPAN> - вызов окна управления <A 
+              href="ug_indicators.html"><SPAN 
+              class=link>индикаторами</SPAN></A>; 
+              <LI><SPAN class=date2>Expert Advisor</SPAN> - появляется меню 
+              более низкого уровня, в котором вы можете изменить настройки 
+              (<SPAN class=date2>Properties..</SPAN>), удалить (<SPAN 
+              class=date2>Remove</SPAN>) или оттестировать на истории (<SPAN 
+              class=date2>Test Strategy</SPAN>) прикрепленного <A 
+              href="ug_experts.html"><SPAN 
+              class=link>эксперта</SPAN></A>: <BR><IMG height=74 
+              alt="Контекстное меню вкладки Expert Advisors" 
+              src="img/mt30.gif" width=144 border=0><BR><BR>
+              <LI><SPAN class=date2>Periodicity</SPAN> - выбор временного 
+              промежутка для графика; 
+              <LI><SPAN class=date2>Template</SPAN> - появляется меню более 
+              низкого уровня, в котором вы можете загрузить ранее сохраненный 
+              шаблон графика (настройки и индикаторы) (<SPAN class=date2>Open 
+              Template</SPAN>) или сохранить настройки графика в виде шаблона 
+              (<SPAN class=date2>Save Template</SPAN>): <BR><IMG height=46 
+              alt="Контекстное меню вкладки Template" 
+              src="img/mt84.gif" width=142 border=0><BR><BR>
+              <LI><SPAN class=date2>Refresh</SPAN> - появляется меню более 
+              низкого уровня, в котором вы можете как просто обновить график 
+              (<SPAN class=date2>Refresh</SPAN>), так и обновить график c 
+              удалением локальной базы котировок (новая база котировок 
+              скачивается с сервера) (<SPAN class=date2>Erase &amp; 
+              Refresh</SPAN>): <BR><IMG height=66 
+              alt="Контекстное меню вкладки Refresh" 
+              src="img/mt85.gif" width=189 border=0><BR><BR>
+              <LI><SPAN class=date2>Auto Arrange</SPAN> - упорядочить индикаторы 
+              внутри графика; 
+              <LI><SPAN class=date2>Grid</SPAN> - включить/отключить отображение 
+              сетки; 
+              <LI><SPAN class=date2>Volumes</SPAN> - показывать/не показывать 
+              график объема; 
+              <LI><SPAN class=date2>Zoom In</SPAN> - увеличить масштаб графика; 
+              <LI><SPAN class=date2>Zoom Out</SPAN> - уменьшить масштаб графика; 
+
+              <LI><SPAN class=date2>Delete Indicator</SPAN> - удалить индикатор 
+              (активно только при щелчке мыши на индикаторе, изображенном под 
+              графиком цены); 
+              <LI><SPAN class=date2>Save as</SPAN> - сохранить график на диск в 
+              выбранном формате (*.CSV,*.PRN,*.HTM); 
+              <LI><SPAN class=date2>Print Preview</SPAN> - предварительный 
+              просмотр перед печатью; 
+              <LI><SPAN class=date2>Print</SPAN> - печать графика; 
+              <LI><SPAN class=date2>Properties..</SPAN> - в зависимости от места 
+              щелчка мыши выводится различные окна: </LI></UL></DIV></TD>
+          <TD vAlign=top align=right><IMG height=312 
+            alt="Контекстное меню окна графика" 
+            src="img/mt29.gif" width=140 align=right 
+          border=0></TD></TR></TBODY></TABLE>
+      <OL>
+        <LI><U>При нажатии на пустом месте графика:</U> <BR><BR>
+        <CENTER><IMG alt="Настройки отображения данных на графике" 
+        src="img/mt31.gif" width=500 border=0></CENTER><BR>В 
+        этом окне вы можете либо выбрать одну из трех стандартных цветовых схем 
+        путем выбора значения <SPAN class=date2>Scheme</SPAN>, либо настроить 
+        цвета графика по своему вкусу: 
+        <UL>
+          <LI><SPAN class=date2>Background</SPAN> - цвет фона; 
+          <LI><SPAN class=date2>Foreground</SPAN> - цвет шкалы времени и шкалы 
+          цены; 
+          <LI><SPAN class=date2>Volume</SPAN> - цвет графика объема; 
+          <LI><SPAN class=date2>Grid</SPAN> - цвет сетки; 
+          <LI><SPAN class=date2>Graph</SPAN> - цвет графика. </LI></UL><BR><U>При 
+        нажатии на графике на отдельном поле с индикатором и при выделенном 
+        индикаторе.</U><BR><BR>Появляется окно с настройками этого <A 
+        href="ug_indicators.html"><SPAN 
+        class=link>индикатора</SPAN></A>. </LI></OL>
+      <UL></UL><SPAN class=date2>"Горячие клавиши" управления окном 
+      графика:</SPAN> 
+      <UL>
+        <LI>курсорные стрелки <SPAN class=date2>Left</SPAN> и <SPAN 
+        class=date2>Right</SPAN> - прокручивают график влево и вправо; 
+        <LI><SPAN class=date2>Home</SPAN> и <SPAN class=date2>End</SPAN> 
+        позволяют перемещаться в начало и конец графика; 
+        <LI>'<SPAN class=date2>-</SPAN>' и '<SPAN class=date2>+</SPAN>' - 
+        уменьшают/увеличивают масштаб графика; 
+        <LI><SPAN class=date2>Alt+1</SPAN> - показ графика в виде баров (баровый 
+        график); 
+        <LI><SPAN class=date2>Alt+2</SPAN> - показ графика в виде "японских 
+        свечей"; 
+        <LI><SPAN class=date2>Alt+3</SPAN> - показ графика в виде линии - 
+        линейный график; 
+        <LI><SPAN class=date2>Ctrl+G</SPAN> - включает/выключает показ сетки; 
+        <LI><SPAN class=date2>Ctrl+L</SPAN> - включает/выключает показ объемов; 
+        <LI><SPAN class=date2>Ctrl+A</SPAN> - автоматическое упорядочивание 
+        индикаторов; 
+        <LI><SPAN class=date2>Ctrl+I</SPAN> - вызывает окно управления 
+        индикаторами; 
+        <LI><SPAN class=date2>Ctrl+S</SPAN> - сохранение графика в выбранном 
+        формате (*.HST,*.CSV,*.PRN,*.HTM); 
+        <LI><SPAN class=date2>Ctrl+P</SPAN> - печать графика в черно-белом виде; 
+
+        <LI><SPAN class=date2>Delete</SPAN> - удаление всех выделенных объектов 
+        на графике; 
+        <LI><SPAN class=date2>Backspace</SPAN> - удаление последнего 
+        добавленного объекта на графике; 
+        <LI><SPAN class=date2>F7</SPAN> - вызывает окно настройки подключенного 
+        советника; 
+        <LI><SPAN class=date2>F8</SPAN> - вызывает окно настройки графика или 
+        индикатора. </LI></UL><SPAN class=date2>Управление графиком мышью:</SPAN> 
+      <UL>
+        <LI>нажатием левой кнопки мыши на графике и последующим горизонтальным 
+        перемещением можно двигать график в разные стороны; 
+        <LI>нажатием левой кнопки мыши в области цен графика и последующим 
+        вертикальным перемещением можно масштабировать график по вертикали; 
+        <LI>нажатием левой кнопки мыши в области дат графика и последующим 
+        горизонтальным перемещением можно масштабировать график по горизонтали; 
+        <LI>нажатием правой кнопки мыши на графике вызывается контекстное меню; 
+        <LI>двойной щелчок левой кнопкой мыши на объекте (тренд, линия, символ, 
+        фибоначчи) выделяет объект; 
+        <LI>нажатием левой кнопки мыши на выделенном объекте с последующим 
+        перемещением позволяет редактировать выделенный объект; 
+        <LI><SPAN class=date2>Ctrl</SPAN> + нажатие левой кнопки мыши на 
+        выделенном тренде с последующим перемещением позволяет создать 
+        параллельный тренд; 
+        <LI>нажатием правой кнопки мыши на выделенном объекте открывает окно 
+        настроек объекта. </LI></UL><SPAN class=date2>Панель Charts</SPAN> 
+      <BR><BR>Панель <SPAN class=date2>Charts</SPAN> выполнена в виде плавающего 
+      окна, которое можно пристыковать к левому, правому или нижнему краям окна 
+      программы.<BR><BR>
+      <CENTER><IMG height=46 alt="Панель Charts" 
+      src="img/mt41.gif" width=255 border=0></CENTER><BR>С 
+      помощью панели <SPAN class=date2>Charts</SPAN> вы можете: 
+      <UL>
+        <LI>изменить тип графика на:<BR><IMG height=20 
+        src="img/mt42.gif" width=20 border=0> - 
+        баровый;<BR><IMG height=20 src="img/mt43.gif" width=20 
+        border=0> - график "японских свечей";<BR><IMG height=20 
+        src="img/mt44.gif" width=20 border=0> - линейный; 
+        <LI><IMG height=20 src="img/mt87.gif" width=20 
+        border=0> - увеличить масштаб; 
+        <LI><IMG height=20 src="img/mt88.gif" width=20 
+        border=0> - уменьшить масштаб; 
+        <LI><IMG height=20 src="img/mt89.gif" width=20 
+        border=0> - сохранить или восстановить шаблон по умолчанию (настройки 
+        графика и набор индикаторов); 
+        <LI><IMG height=20 src="img/mt90.gif" width=20 
+        border=0> - сохранить или восстановить профайл по умолчанию (также 
+        управлять профайлами можно из мено <SPAN class=date2>File - &gt; 
+        Profiles</SPAN>); 
+        <LI>при нажатой кнопке <IMG height=20 
+        src="img/mt54.gif" width=20 border=0> после прихода 
+        новой котировки график автоматически смещается влево настолько, чтобы 
+        был виден "правый край" графика; 
+        <LI>при нажатой кнопке <IMG height=20 
+        src="img/mt45.gif" width=20 border=0> "правый край" 
+        графика прижат не к правой стороне окна, а к середине окна; 
+        <LI>нажатая кнопка <IMG height=20 src="img/mt46.gif" 
+        width=20 border=0> разрешает использование экспертов; </LI></UL>
+      <DIV></DIV><BR><BR>
+      <CENTER><A href="ug_view_terminal.html"><SPAN 
+      class=link>Назад</SPAN></A>&nbsp;&nbsp;<A 
+      href="index.html"><SPAN 
+      class=link>Содержание</SPAN></A>&nbsp;&nbsp;<A 
+      href="ug_lines_bar.html"><SPAN 
+      class=link>Далее</SPAN></A></CENTER><BR><BR><BR> </CENTER></BODY></HTML>
